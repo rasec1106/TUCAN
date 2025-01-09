@@ -1,0 +1,59 @@
+{
+  "ivrParameters": {
+    "HoldMsg": "NULL",
+    "ZipAttempts": 0,
+    "MainGreeting": "NULL",
+    "Environment": "PROD",
+    "NumDescription": "{NumDescription:string}",
+    "AgentExtDnis": "NULL",
+    "Active": true,
+    "Campaign": "MAQL",
+    "ExtensionAttempts": 0,
+    "CheckSuspectANI": false,
+    "MenuOptionsRepeatCounter": 0,
+    "MenuGreeting": "NULL",
+    "SubCampaign": "{IbSkill:string}",
+    "AlternateRoutingPath": "NULL",
+    "AgentExtRouting": "FALSE",
+    "TFN": "{TFN:string}",
+    "ACDRoutingType": "Default",
+    "MenuOptions": 0,
+    "CheckOutOfFootprint": false
+  },
+  "additionalIvrParameters": {
+    "OutOfFootprintMessage": "NULL",
+    "ExtensionPrompt": "NULL",
+    "SubMenuOptions": 0,
+    "SubMenuGreeting": "NULL",
+    "InvalidZipPrompt": "NULL",
+    "CheckAgentAvailability": false,
+    "InvalidSubMenuSelectionMessage": "NULL",
+    "InvalidMenuSelectionMessage": "NULL",
+    "CheckHoursOfOperation": true,
+    "RepeatZipPrompt": "NULL",
+    "RepeatExtensionPrompt": "NULL",
+    "TFN": "{TFN:string}",
+    "DisconnectMSG": "NULL",
+    "SoaInboundCheck": false,
+    "InvalidExtensionPrompt": "NULL",
+    "ZipPrompt": "NULL",
+    "SubMenuOptionsRepeatCounter": 0
+  },
+  "afterHoursRouting": {
+    "TFN": "{TFN:string}",
+    "DestinationCampaign": "NULL",
+    "DestinationSkill": "NULL",
+    "Number": "7882",
+    "Order": "1",
+    "OverflowDestination": "NULL"
+  },
+  "agentUnavailableParameters": {
+    "GroupClosedMessage": "NULL",
+    "AgentUnavailableRoutingType": "Disconnect",
+    "AfterHoursRoutingType": "VoiceMail",
+    "AgentUnavailableMessage": "AgentBusyNoHours",
+    "TFN": "{TFN:string}"
+  },
+  "agentUnavailableRouting": null,
+  "routingOptions": []
+}

@@ -1,0 +1,30 @@
+{
+  "afid": {
+    "Priority": 1,
+    "Description": "{NumDescription:string}",
+    "Campaign": "PRU",
+    "Afid": "{Afid:string}",
+    "Cid": "*",
+    "Tfn": "{TFN:string}"
+  },
+  "campaignConfig":[
+    {
+      "id":"subcampaign",
+      "Name":"[DNIS - OB] Subcampaign",
+      "Url": "https://lm-designer.cignium.com/design/cignium/cuy-pru/36b3f10d-5f9c-49aa-a34a-292afaeab872/tablerules/e49e7809-756d-4980-9926-53cefd3a24d4/rows",
+      "Fields": ["Priority", "Tier", "Afid", "Cid", "RecalculateReason", "CreateReason", "SubCampaign"],
+      "Content": [
+        {
+          "Priority": 1,
+          "Tier": "*",
+          "Afid": "{Afid:string}",
+          "Cid": "*",
+          "RecalculateReason": "*",
+          "CreateReason": "*",
+          "SubCampaign": "{ObSkill:string}"
+        }
+      ]
+    }
+  ]
+  
+}

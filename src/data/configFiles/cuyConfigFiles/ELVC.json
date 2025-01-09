@@ -1,0 +1,11 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "ELVC",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[]
+}

@@ -1,0 +1,29 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "LCM",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-lcm/69ce703b-8c6f-4da8-88f8-273bc8d4a0dc/tablerules/67fff364-e173-4069-916e-e33f303d9dbf/rows",
+        "Fields": ["Priority","Tier","AFID","CID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Tier": "Tier1",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

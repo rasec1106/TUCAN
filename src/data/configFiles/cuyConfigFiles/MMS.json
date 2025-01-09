@@ -1,0 +1,59 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "MMS",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-mms/4e84fa70-5b2e-4019-b415-622e0c0c6ea0/tablerules/e0a7c189-0a7e-4e15-be9d-19590ad4beba/rows",
+        "Fields": ["Priority","Tier","CID","AFID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 2,
+            "Tier":"Tier2",
+            "CID": "*",
+            "AFID": "{Afid:string}",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      },
+      {
+        "id":"leadtypeDid",
+        "Name":"[LeadType/LeadModel] SessionDnisFull",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-mms/4e84fa70-5b2e-4019-b415-622e0c0c6ea0/tablerules/8db9a7b3-15d5-4de2-a943-2655d6cd12ef/rows",
+        "Fields": ["Priority","SessionDnisFull","SessionLeadType","SessionLeadModel"],
+        "Content": [
+          {
+            "Priority": 1,
+            "SessionDnisFull": "{TFN:string}",
+            "SessionLeadType": "{LeadType:string}",
+            "SessionLeadModel": "*"
+          }
+        ]
+      },
+      { 
+        "id":"leadtypeAfid",
+        "Name":"[LeadType/LeadModel] LeadCid/Afid",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-mms/4e84fa70-5b2e-4019-b415-622e0c0c6ea0/tablerules/76508ce2-a48d-4076-97c6-c9598fbb0bb7/rows",
+        "Fields": ["Priority","LeadCid","LeadAfid","SessionLeadType","SessionLeadModel"],
+        "Content": [
+          {
+            "Priority": 2,
+            "LeadCid":"*",
+            "LeadAfid": "{Afid:string}",
+            "SessionLeadType": "{LeadType:string}",
+            "SessionLeadModel":"*"
+          }
+        ]
+      }
+    ]
+
+  }
+  

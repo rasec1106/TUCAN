@@ -1,0 +1,29 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "TZR",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig": [
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-tzr/a6e8a5f5-597c-4565-94c4-d24bc756c49a/tablerules/e49e7809-756d-4980-9926-53cefd3a24d4/rows",
+        "Fields": ["Priority","Tier","AFID","CID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Tier": "*",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+    
+  }

@@ -1,0 +1,21 @@
+{
+  "ivrDid": {
+    "PathID": "OMA_ANIONLYIVR_SB14",
+    "DID": "{TFN:string}",
+    "Campaign": "OMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "OMA_ANIONLYIVR_SB14-NoGreeting-NoMenu-ANI-SMAQL/LO/Disconnect-SMAQL/LO/Disconnect",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    }
+  ]
+}

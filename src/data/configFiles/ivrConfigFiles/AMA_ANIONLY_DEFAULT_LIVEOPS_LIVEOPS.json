@@ -1,0 +1,66 @@
+{
+  "ivrParameters": {
+    "HoldMsg": "NULL",
+    "ZipAttempts": 0,
+    "MainGreeting": "NULL",
+    "Environment": "PROD",
+    "NumDescription": "{NumDescription:string}",
+    "AgentExtDnis": "NULL",
+    "Active": true,
+    "Campaign": "AMA",
+    "ExtensionAttempts": 0,
+    "CheckSuspectANI": false,
+    "MenuOptionsRepeatCounter": 0,
+    "MenuGreeting": "NULL",
+    "SubCampaign": "{IbSkill:string}",
+    "AlternateRoutingPath": "NULL",
+    "AgentExtRouting": "FALSE",
+    "TFN": "{TFN:string}",
+    "ACDRoutingType": "ANI",
+    "MenuOptions": 0,
+    "CheckOutOfFootprint": false
+  },
+  "additionalIvrParameters": {
+    "OutOfFootprintMessage": "NULL",
+    "ExtensionPrompt": "NULL",
+    "SubMenuOptions": 0,
+    "SubMenuGreeting": "NULL",
+    "InvalidZipPrompt": "NULL",
+    "CheckAgentAvailability": false,
+    "InvalidSubMenuSelectionMessage": "NULL",
+    "InvalidMenuSelectionMessage": "NULL",
+    "CheckHoursOfOperation": false,
+    "RepeatZipPrompt": "NULL",
+    "RepeatExtensionPrompt": "NULL",
+    "TFN": "{TFN:string}",
+    "DisconnectMSG": "NULL",
+    "SoaInboundCheck": false,
+    "InvalidExtensionPrompt": "NULL",
+    "ZipPrompt": "NULL",
+    "SubMenuOptionsRepeatCounter": 0
+  },
+  "afterHoursRouting": {
+    "TFN": "{TFN:string}",
+    "DestinationCampaign": "NULL",
+    "DestinationSkill": "NULL",
+    "Number": "{AbhNumber:string}",
+    "Order": "1",
+    "OverflowDestination": "LiveOps"
+  },
+  "agentUnavailableParameters": {
+    "GroupClosedMessage": "NULL",
+    "AgentUnavailableRoutingType": "ExternalOverflow",
+    "AfterHoursRoutingType": "ExternalOverflow",
+    "AgentUnavailableMessage": "NULL",
+    "TFN": "{TFN:string}"
+  },
+  "agentUnavailableRouting": {
+    "DestinationCampaign": "NULL",
+    "Order": "1",
+    "TFN": "{TFN:string}",
+    "Number": "{DbhNumber:string}",
+    "DestinationSkill": "NULL",
+    "OverflowDestination": "LiveOps"
+  },
+  "routingOptions": []
+}

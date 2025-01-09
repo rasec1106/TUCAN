@@ -1,0 +1,30 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "COL",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-col/9cbff27a-b8ce-4926-9329-58891469dc23/tablerules/e49e7809-756d-4980-9926-53cefd3a24d4/rows",
+        "Fields": ["Priority","Tier","AFID","CID","RecalculateReason","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 2,
+            "Tier": "*",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "RecalculateReason":"*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

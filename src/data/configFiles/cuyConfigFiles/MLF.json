@@ -1,0 +1,30 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "MLF",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-mlf/5759e411-9618-451f-a653-1a2b098f0d02/tablerules/e49e7809-756d-4980-9926-53cefd3a24d4/rows",
+        "Fields": ["Priority","Tier","AFID","CID","RecalculateReason","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Tier": "*",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "RecalculateReason": "*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,412 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TUCAN - Valdicon",
+    "version": "1.0.0",
+    "description": "Tool for Unified Configuration and Automation for did Numbers"
+  },
+  "servers": [
+    {
+      "url": "/api/config",
+      "description": "API Base Path"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Dev Plan Generation",
+      "description": "APIs for Jira Dev Plan Generation"
+    }
+  ],
+
+  "paths": {
+    "/generateDevPlan/{jiraCard}": {
+      "post": {
+        "tags": ["Dev Plan Generation"],
+        "summary": "Generate FULL development plan by Jira card",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateDevPlan": {
+      "post": {
+        "summary": "Generate development plan by Jira card query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateV1IvrConfigDevPlan/{jiraCard}": {
+      "post": {
+        "tags": ["Dev Plan Generation"],
+        "summary": "Generate V1 IVR config development plan",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "V1 IVR config development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateV1IvrConfigDevPlan": {
+      "post": {
+        "summary": "Generate V1 IVR config development plan by query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "V1 IVR config development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateV2IvrConfigDevPlan/{jiraCard}": {
+      "post": {
+        "tags": ["Dev Plan Generation"],
+        "summary": "Generate V2 IVR config development plan",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "V2 IVR config development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateV2IvrConfigDevPlan": {
+      "post": {
+        "summary": "Generate V2 IVR config development plan by query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "V2 IVR config development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateCuyDevPlan/{jiraCard}": {
+      "post": {
+        "tags": ["Dev Plan Generation"],
+        "summary": "Generate CUY development plan",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "CUY development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/config/generateCuyDevPlan": {
+      "post": {
+        "summary": "Generate CUY development plan by query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "CUY development plan generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateDevPlanByCampaign/{jiraCard}": {
+      "post": {
+        "summary": "Generate development plan by campaign",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Development plan by campaign generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateDevPlanByCampaign": {
+      "post": {
+        "summary": "Generate development plan by campaign query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Development plan by campaign generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/updateDevPlanByCampaign/{jiraCard}": {
+      "put": {
+        "summary": "Update development plan by campaign",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Development plan updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/updateDevPlanByCampaign": {
+      "put": {
+        "summary": "Update development plan by campaign query",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Development plan updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generateJiraReleaseIntructions/{jiraCard}": {
+      "post": {
+        "tags": ["Dev Plan Generation"],
+        "summary": "Generate Jira release instructions",
+        "parameters": [
+          {
+            "name": "jiraCard",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Jira card identifier"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Jira release instructions generated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "afid": {
+        "Priority": 1,
+        "Description": "{NumDescription:string}",
+        "Campaign": "MAQL",
+        "Afid": "{Afid:string}",
+        "Cid": "*",
+        "Tfn": "{TFN:string}"
+    },
+    "subCampaign": {
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-maql/5d5fac1b-480c-46f8-b116-53d94d864117/tablerules/30bed19d-f1b4-45f4-8351-01df5f15f6c4/rows",
+        "Fields": [
+        "Priority",
+        "Description",
+        "Tier",
+        "Carrier",
+        "CreateReason",
+        "CID",
+        "AFID",
+        "SubCampaign"
+        ],
+        "Content": [
+        {
+            "Priority": 1,
+            "Description": "{NumDescription:string}",
+            "Tier": "*",
+            "Carrier": "*",
+            "CreateReason": "*",
+            "CID": "*",
+            "AFID": "{Afid:string}",
+            "SubCampaign": "{ObSkill:string}"
+        }
+        ]
+    },
+    "leadType": {
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-maql/5d5fac1b-480c-46f8-b116-53d94d864117/tablerules/1f833074-fbaa-43b7-8c9d-3734ef15ee42/rows",
+        "Fields": [
+        "Priority",
+        "Did",
+        "Cid",
+        "Afid",
+        "CreateReason",
+        "LeadType",
+        "ElvcScriptType"
+        ],
+        "Content": [
+        {
+            "Priority": 2,
+            "Did": "{TFN:string}",
+            "Cid": "*",
+            "Afid": "*",
+            "CreateReason": "*",
+            "LeadType": "{LeadType:string}",
+            "ElvcScriptType": "FALSE"
+        },
+        {
+            "Priority": 3,
+            "Did": "*",
+            "Cid": "*",
+            "Afid": "{Afid:string}",
+            "CreateReason": "*",
+            "LeadType": "{LeadType:string}",
+            "ElvcScriptType": "FALSE"
+        }
+        ]
+    }
+}

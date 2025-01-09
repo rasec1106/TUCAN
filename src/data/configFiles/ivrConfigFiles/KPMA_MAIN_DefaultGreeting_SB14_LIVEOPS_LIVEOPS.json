@@ -1,0 +1,21 @@
+{
+  "ivrDid": {
+    "PathID": "KPMA_MAIN_DefaultGreeting_SB14",
+    "DID": "{TFN:string}",
+    "Campaign": "KPMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "KPMA_MAIN_DefaultGreeting_SB14-KPMA_DirectMailGreeting-NoMenu-ANI-ExternalOverflow-ExternalOverflow",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "{DbhNumber:string}",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    }
+  ]
+}

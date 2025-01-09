@@ -1,0 +1,26 @@
+{
+  "campaign: AMA": {
+    "ivr: AMA_ANIONLYIVR": {
+      "greeting: NONE": {
+        "skill: SB15": {
+          "dbh: LIVEOPS, abh: LIVEOPS": "AMA_ANIONLY_DEFAULT_LIVEOPS_LIVEOPS.json"
+        }
+      }
+    },
+    "ivr: ANIONLY": {
+      "greeting: N/A": {
+        "skill: SB15": {
+          "dbh: N/A, abh: N/A": "AMA_ANIONLY_DEFAULT_DISCONNECT_DISCONNECT.json"
+        }
+      }
+    },
+    "ivr: MAIN": {
+      "greeting: PARTNER": {
+        "skill: SB15": {
+          "dbh: LIVEOPS, abh: LIVEOPS": "AMA_MAIN_PARTNER_DEFAULT_LIVEOPS_LIVEOPS.json",
+          "dbh: N/A, abh: N/A": "AMA_MAIN_PARTNER_DEFAULT_DISCONNECT_DISCONNECT.json"
+        }
+      }
+    }
+  }
+}

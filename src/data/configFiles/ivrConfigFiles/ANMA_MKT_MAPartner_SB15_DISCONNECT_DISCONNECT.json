@@ -1,0 +1,27 @@
+{
+  "ivrDid": {
+    "PathID": "ANMA_MKT_MAPartner_SB15",
+    "DID": "{TFN:string}",
+    "Campaign": "ANMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "ANMA_MKT_MAPartner_SB15_NEW_from_ANMA_MKT_MAPartner_SB14",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    },
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "MAQL"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "valdicon",
+    "version": "1.0.0",
+    "description": "Validator for did configuration",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node build/index.js",
+        "lint": "ts-standard",
+        "test": "tsc && jest",
+        "start-trace": "tsc && set ENVIRONMENT=dev && set TRACING=true && node build/index.js",
+        "start-dev": "tsc && set ENVIRONMENT=dev && node build/index.js",
+        "start-qa": "tsc && set ENVIRONMENT=qa && node build/index.js",
+        "start-prod": "tsc && set ENVIRONMENT=prod && node build/index.js"
+    },
+    "keywords": [],
+    "author": "Configuration Team",
+    "license": "ISC",
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "@types/express": "^4.17.21",
+        "@types/jest": "^29.5.13",
+        "@types/supertest": "^6.0.2",
+        "@types/swagger-jsdoc": "^6.0.4",
+        "@types/swagger-ui-express": "^4.1.7",
+        "jest": "^29.7.0",
+        "supertest": "^7.0.0",
+        "trace": "^3.2.0",
+        "trace-deps": "^0.5.2",
+        "ts-jest": "^29.2.5",
+        "ts-standard": "^12.0.2",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "axios": "1.6.8",
+        "dotenv": "16.4.5",
+        "express": "4.19.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-dist": "^5.18.2",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "project": "./tsconfig.json"
+        },
+        "extends": [
+            "./eslintrc.json"
+        ]
+    }
+}

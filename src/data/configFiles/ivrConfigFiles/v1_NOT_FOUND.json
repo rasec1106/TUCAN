@@ -1,0 +1,77 @@
+{
+  "ivrParameters": {
+    "HoldMsg": "*{color:#de350b}NOT MAPPED{color}*",
+    "ZipAttempts": "*{color:#de350b}NOT MAPPED{color}*",
+    "MainGreeting": "*{color:#de350b}NOT MAPPED{color}*",
+    "Environment": "*{color:#de350b}NOT MAPPED{color}*",
+    "NumDescription": "*{color:#de350b}NOT MAPPED{color}*",
+    "AgentExtDnis": "*{color:#de350b}NOT MAPPED{color}*",
+    "Active": "*{color:#de350b}NOT MAPPED{color}*",
+    "Campaign": "*{color:#de350b}{Campaign:string}{color}*",
+    "ExtensionAttempts": "*{color:#de350b}NOT MAPPED{color}*",
+    "CheckSuspectANI": "*{color:#de350b}NOT MAPPED{color}*",
+    "MenuOptionsRepeatCounter": "*{color:#de350b}NOT MAPPED{color}*",
+    "MenuGreeting": "*{color:#de350b}NOT MAPPED{color}*",
+    "SubCampaign": "*{color:#de350b}{IbSkill:string}{color}*",
+    "AlternateRoutingPath": "*{color:#de350b}NOT MAPPED{color}*",
+    "AgentExtRouting": "*{color:#de350b}NOT MAPPED{color}*",
+    "TFN": "*{color:#de350b}{TFN:string}{color}*",
+    "ACDRoutingType": "*{color:#de350b}NOT MAPPED{color}*",
+    "MenuOptions": "*{color:#de350b}NOT MAPPED{color}*",
+    "CheckOutOfFootprint": "*{color:#de350b}NOT MAPPED{color}*"
+  },
+  "additionalIvrParameters": {
+    "OutOfFootprintMessage": "*{color:#de350b}NOT MAPPED{color}*",
+    "ExtensionPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "SubMenuOptions": "*{color:#de350b}NOT MAPPED{color}*",
+    "SubMenuGreeting": "*{color:#de350b}NOT MAPPED{color}*",
+    "InvalidZipPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "CheckAgentAvailability": "*{color:#de350b}NOT MAPPED{color}*",
+    "InvalidSubMenuSelectionMessage": "*{color:#de350b}NOT MAPPED{color}*",
+    "InvalidMenuSelectionMessage": "*{color:#de350b}NOT MAPPED{color}*",
+    "CheckHoursOfOperation": "*{color:#de350b}NOT MAPPED{color}*",
+    "RepeatZipPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "RepeatExtensionPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "TFN": "*{color:#de350b}{TFN:string}{color}*",
+    "DisconnectMSG": "*{color:#de350b}NOT MAPPED{color}*",
+    "SoaInboundCheck": "*{color:#de350b}NOT MAPPED{color}*",
+    "InvalidExtensionPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "ZipPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+    "SubMenuOptionsRepeatCounter": "*{color:#de350b}NOT MAPPED{color}*"
+  },
+  "afterHoursRouting": {
+    "TFN": "*{color:#de350b}{TFN:string}{color}*",
+    "DestinationCampaign": "*{color:#de350b}NOT MAPPED{color}*",
+    "DestinationSkill": "*{color:#de350b}NOT MAPPED{color}*",
+    "Number": "*{color:#de350b}NOT MAPPED{color}*",
+    "Order": "*{color:#de350b}NOT MAPPED{color}*",
+    "OverflowDestination": "*{color:#de350b}NOT MAPPED{color}*"
+  },
+  "agentUnavailableParameters": {
+    "GroupClosedMessage": "*{color:#de350b}NOT MAPPED{color}*",
+    "AgentUnavailableRoutingType": "*{color:#de350b}NOT MAPPED{color}*",
+    "AfterHoursRoutingType": "*{color:#de350b}NOT MAPPED{color}*",
+    "AgentUnavailableMessage": "*{color:#de350b}NOT MAPPED{color}*",
+    "TFN": "*{color:#de350b}{TFN:string}{color}*"
+  },
+  "agentUnavailableRouting": {
+    "DestinationCampaign": "*{color:#de350b}NOT MAPPED{color}*",
+    "Order": "*{color:#de350b}NOT MAPPED{color}*",
+    "TFN": "*{color:#de350b}{TFN:string}{color}*",
+    "Number": "*{color:#de350b}NOT MAPPED{color}*",
+    "DestinationSkill": "*{color:#de350b}NOT MAPPED{color}*",
+    "OverflowDestination": "*{color:#de350b}NOT MAPPED{color}*"
+  },
+  "routingOptions": [
+    {
+      "RoutingPrompt": "*{color:#de350b}NOT MAPPED{color}*",
+      "RoutingValue": "*{color:#de350b}NOT MAPPED{color}*",
+      "TFN": "*{color:#de350b}{TFN:string}{color}*",
+      "Description": "*{color:#de350b}NOT MAPPED{color}*",
+      "RoutingOption": "*{color:#de350b}NOT MAPPED{color}*",
+      "RoutingStatus": "*{color:#de350b}NOT MAPPED{color}*",
+      "RoutingPath": "*{color:#de350b}NOT MAPPED{color}*",
+      "RoutingAction": "*{color:#de350b}NOT MAPPED{color}*"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "MSQL",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-msql/ec34a5ee-f478-4cc5-a092-47b5ac8e338c/tablerules/49a2b9bd-8bf2-4757-93df-b81d16bd0d0c/rows",
+        "Fields": ["Priority","Description","CreateReason","CID","AFID","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Description":"{NumDescription:string}",
+            "CreateReason": "*",
+            "CID": "*",
+            "AFID": "{Afid:string}",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      },
+      {
+        "id":"leadtypeDid",
+        "Name":"[LeadType/LeadModel] SessionDnisFull",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-msql/ec34a5ee-f478-4cc5-a092-47b5ac8e338c/tablerules/b6d7cd8e-209f-450d-8e36-4df7a68e1e8e/rows",
+        "Fields": ["Priority","SessionDnisFull","SessionLeadType","SessionLeadModel"],
+        "Content": [
+          {
+            "Priority": 1,
+            "SessionDnisFull": "{TFN:string}",
+            "SessionLeadType": "{LeadType:string}",
+            "SessionLeadModel": "*"
+          }
+        ]
+      },
+      { 
+        "id":"leadtypeAfid",
+        "Name":"[LeadType/LeadModel] LeadCid/Afid",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-msql/ec34a5ee-f478-4cc5-a092-47b5ac8e338c/tablerules/c828adba-c963-4e41-aea7-14e7fef74410/rows",
+        "Fields": ["Priority","LeadCid","LeadAfid","SessionLeadType","SessionLeadModel"],
+        "Content": [
+          {
+            "Priority": 2,
+            "LeadCid":"*",
+            "LeadAfid": "{Afid:string}",
+            "SessionLeadType": "{LeadType:string}",
+            "SessionLeadModel":"*"
+          }
+        ]
+      }
+    ]
+    
+  }
+  

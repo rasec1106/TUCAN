@@ -1,0 +1,21 @@
+{
+  "ivrDid": {
+    "PathID": "*{color:#de350b}NOT MAPPED{color}*",
+    "DID": "*{color:#de350b}{TFN:string}{color}*",
+    "Campaign": "*{color:#de350b}{Campaign:string}{color}*",
+    "NumDescription": "*{color:#de350b}NOT MAPPED{color}*",
+    "Active": "*{color:#de350b}NOT MAPPED{color}*",
+    "Environment": "*{color:#de350b}NOT MAPPED{color}*",
+    "PathCode": "*{color:#de350b}NOT MAPPED{color}*",
+    "CheckSuspectANI": "*{color:#de350b}NOT MAPPED{color}*",
+    "SoaInboundCheck": "*{color:#de350b}NOT MAPPED{color}*"
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "*{color:#de350b}NOT MAPPED{color}*",
+      "Environment": "*{color:#de350b}NOT MAPPED{color}*",
+      "DID": "*{color:#de350b}{TFN:string}{color}*",
+      "Scenario": "*{color:#de350b}NOT MAPPED{color}*"
+    }
+  ]
+}

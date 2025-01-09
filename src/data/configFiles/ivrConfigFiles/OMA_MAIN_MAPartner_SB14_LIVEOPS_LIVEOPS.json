@@ -1,0 +1,27 @@
+{
+  "ivrDid": {
+    "PathID": "MACHOICE_MAIN_MAPartner_SB14",
+    "DID": "{TFN:string}",
+    "Campaign": "OMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "MACHOICE_MAIN_MAPartner_SB14",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "{DbhNumber:string}",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    },
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "MAQL"
+    }
+  ]
+}

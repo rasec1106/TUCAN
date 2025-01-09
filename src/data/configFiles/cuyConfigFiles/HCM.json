@@ -1,0 +1,29 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "HCM",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-hcm/01ec37d9-0f56-4c46-9ad7-8bb91614ce72/tablerules/67fff364-e173-4069-916e-e33f303d9dbf/rows",
+        "Fields": ["Priority","Tier","AFID","CID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Tier": "*",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

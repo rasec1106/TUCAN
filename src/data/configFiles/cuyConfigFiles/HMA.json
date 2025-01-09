@@ -1,0 +1,69 @@
+{
+  "afid": {
+    "Priority": 1,
+    "Description": "{NumDescription:string}",
+    "Campaign": "HMA",
+    "Afid": "{Afid:string}",
+    "Cid": "*",
+    "Tfn": "{TFN:string}"
+  },
+  "campaignConfig":[
+    {
+      "id":"subcampaign",
+      "Name":"[DNIS - OB] Subcampaign",
+      "Url": "https://lm-designer.cignium.com/design/cignium/cuy-hma/6929d218-c802-4b96-a543-25ecf9eb9fc9/tablerules/a276126c-8edf-44f4-b3b8-71565e1af31c/rows",
+      "Fields": ["Priority", "RecalculateReason", "Description", "Did", "Tier", "CreateReason", "Cid", "Afid", "SubCampaign"],
+      "Content": [
+        {
+          "Priority": 2,
+          "RecalculateReason": "*",
+          "Description": "{NumDescription:string}",
+          "Did": "{TFN:string}",
+          "Tier": "*",
+          "CreateReason": "*",
+          "Cid": "*",
+          "Afid": "*",
+          "SubCampaign": "{ObSkill:string}"
+        },
+        {
+          "Priority": 3,
+          "RecalculateReason": "*",
+          "Description": "{NumDescription:string}",
+          "Did": "*",
+          "Tier": "*",
+          "CreateReason": "*",
+          "Cid": "*",
+          "Afid": "{Afid:string}",
+          "SubCampaign": "{ObSkill:string}"
+        }
+      ]
+    },
+    {
+      "id":"leadtype",
+      "Name":"[Lead Type]",
+      "Url": "https://lm-designer.cignium.com/design/cignium/cuy-hma/6929d218-c802-4b96-a543-25ecf9eb9fc9/tablerules/9eeabfbe-cda1-4af7-aba6-27374103f621/rows",
+      "Fields": ["Priority", "Did", "Cid", "Afid", "Campaign", "LeadType", "IsModelB"],
+      "Content": [
+        {
+          "Priority": 1,
+          "Did": "{TFN:string}",
+          "Cid": "*",
+          "Afid": "*",
+          "Campaign": "HMA",
+          "LeadType": "{LeadType:string}",
+          "IsModelB": false
+        },
+        {
+          "Priority": 3,
+          "Did": "*",
+          "Cid": "*",
+          "Afid": "{Afid:string}",
+          "Campaign": "HMA",
+          "LeadType": "{LeadType:string}",
+          "IsModelB": false
+        }
+      ]
+    }
+  ]
+  
+}

@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["eslint:recommended","standard-with-typescript", "standard-jsx"],
+  "rules": {
+    "no-console": "error"
+  }
+}

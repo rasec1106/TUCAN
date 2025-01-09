@@ -1,0 +1,21 @@
+{
+  "ivrDid": {
+    "PathID": "KPMA_ANIONLYIVR_SB14",
+    "DID": "{TFN:string}",
+    "Campaign": "KPMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "KPMA_ANIONLYIVR_SB14-NoGreeting-NoMenu-ANI-ExternalOverflow-ExternalOverflow",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    }
+  ]
+}

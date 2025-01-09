@@ -1,0 +1,11 @@
+build
+npm-debug.log
+coverage
+test-report.xml
+.vscode/settings.json
+**/node_modules
+*.env
+.sonar/
+.scannerwork/
+.sonar_lock
+sonar-project.properties

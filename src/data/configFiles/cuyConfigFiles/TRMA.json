@@ -1,0 +1,29 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "TRMA",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig": [
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-trma/2f2059f6-a8e5-4aad-82f3-5625bbb75b01/tablerules/67fff364-e173-4069-916e-e33f303d9dbf/rows",
+        "Fields": ["Priority","Tier","AFID","CID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Tier": "*",
+            "AFID": "{Afid:string}",
+            "CID": "*",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,51 @@
+{
+    "afid": {
+      "Priority": 1,
+      "Description": "{NumDescription:string}",
+      "Campaign": "AMS",
+      "Afid": "{Afid:string}",
+      "Cid": "*",
+      "Tfn": "{TFN:string}"
+    },
+    "campaignConfig":[
+      {
+        "id":"subcampaign",
+        "Name":"[DNIS - OB] Subcampaign",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-ams/36fe6899-bc25-4de2-a493-932605685cb3/tablerules/67fff364-e173-4069-916e-e33f303d9dbf/rows",
+        "Fields": ["Priority","Tier","CID","AFID","CreateReason","SubCampaign"],
+        "Content": [
+          {
+            "Priority": 2,
+            "Tier": "*",
+            "CID": "*",
+            "AFID": "{Afid:string}",
+            "CreateReason": "*",
+            "SubCampaign": "{ObSkill:string}"
+          }
+        ]
+      },
+      {
+        "id":"leadtype",
+        "Name":"[Lead Type]",
+        "Url": "https://lm-designer.cignium.com/design/cignium/cuy-ams/36fe6899-bc25-4de2-a493-932605685cb3/tablerules/04697d71-850a-46d9-999f-42676028e618/rows",
+        "Fields": ["Priority","Did","Cid","Afid","LeadType"],
+        "Content": [
+          {
+            "Priority": 1,
+            "Did": "{TFN:string}",
+            "Cid": "*",
+            "Afid": "*",
+            "LeadType": "{LeadType:string}"
+          },
+          {
+            "Priority": 2,
+            "Did": "*",
+            "Cid": "*",
+            "Afid": "{Afid:string}",
+            "LeadType": "{LeadType:string}"
+          }
+        ]
+      }
+    ]
+  }
+  

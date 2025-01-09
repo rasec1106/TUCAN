@@ -1,0 +1,21 @@
+{
+  "ivrDid": {
+    "PathID": "CMA_ANIONLYIVR_SB14",
+    "DID": "{TFN:string}",
+    "Campaign": "CMA",
+    "NumDescription": "{NumDescription:string}",
+    "Active": true,
+    "Environment": "PROD",
+    "PathCode": "CMA_ANIONLYIVR_SB14-NoGreeting-NoMenu-ANI-Disconnect-Disconnect",
+    "CheckSuspectANI": false,
+    "SoaInboundCheck": false
+  },
+  "ivrDidRouting": [
+    {
+      "Destination": "NULL",
+      "Environment": "PROD",
+      "DID": "{TFN:string}",
+      "Scenario": "LOPSOverflow"
+    }
+  ]
+}

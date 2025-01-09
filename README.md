@@ -1,2 +1,4 @@
-# TUCAN
-Tool for Unified Configuration and Automation of did Numbers
+# Welcome 
+Welcome to Valdicon, the validator for did configuration.
+Tool under construction.
+Readme in progress!

@@ -1,0 +1,25 @@
+{
+  "afid": {
+    "Priority": 1,
+    "Description": "{NumDescription:string}",
+    "Campaign": "{Campaign:string}",
+    "Afid": "{Afid:string}",
+    "Cid": "*",
+    "Tfn": "{TFN:string}"
+  },
+  "campaignConfig": [
+    {
+      "id":"notFound",
+      "Name":"Missing configuration",
+      "Url": "https://tz-cloud.atlassian.net/wiki/spaces/CCT/pages/540049422/Adding+IVR+mapping+files",
+      "Fields": ["DID", "Description", "ToBeDeveloped"],
+      "Content": [
+        {
+          "DID": "*{color:#de350b}{TFN:string}{color}*",
+          "Description": "*{color:#de350b}{NumDescription:string}{color}*",
+          "ToBeDeveloped": "*{color:#de350b}The configuration file is missing for {Campaign:string}{color}*"
+        }
+      ]
+    }
+  ]
+}
