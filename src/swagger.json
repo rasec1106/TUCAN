@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "/api/config",
+      "url": "http://18.216.114.92:3000/api/config",
       "description": "API Base Path"
     }
   ],
